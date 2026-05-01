@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 11 - AWS Deployment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .student-info {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: left;
+            border-radius: 5px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .info-value {
+            color: #333;
+        }
+
+        .explanation {
+            text-align: left;
+            margin: 30px 0;
+            line-height: 1.8;
+        }
+
+        .explanation h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .explanation p {
+            color: #555;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .highlights {
+            background: #e8eaf6;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .highlights h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .highlights ul {
+            list-style-position: inside;
+            line-height: 2;
+            color: #555;
+        }
+
+        .highlights li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Lab 11: AWS Deployment</h1>
+            <p>Web Application on Amazon Web Services</p>
+        </div>
+
+        <div class="student-info">
+            <div class="info-row">
+                <span class="info-label">Student Name:</span>
+                <span class="info-value">Waleed Hassan</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Registration #:</span>
+                <span class="info-value">22MDBCS229</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Lab Number:</span>
+                <span class="info-value">11</span>
+            </div>
+        </div>
+
+        <div class="highlights">
+            <h3>📌 Badges Earned</h3>
+            <div>
+                <span class="badge">AWS Deployment</span>
+                <span class="badge">Web Development</span>
+                <span class="badge">Cloud Computing</span>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <h2>About This Lab</h2>
+            
+            <p>
+                <strong>Lab 11: AWS Deployment</strong> is a comprehensive hands-on project that focuses on deploying web applications to Amazon Web Services (AWS), one of the leading cloud computing platforms. This lab demonstrates practical skills in cloud infrastructure management, scalability, and modern web application deployment practices.
+            </p>
+
+            <h3 style="color: #667eea; margin-top: 20px;">Key Objectives:</h3>
+            
+            <div class="highlights">
+                <ul>
+                    <li><strong>AWS EC2 Instances:</strong> Learn to launch and configure virtual servers on EC2 for hosting web applications</li>
+                    <li><strong>Elastic Beanstalk:</strong> Deploy applications using simplified platform-as-a-service solutions</li>
+                    <li><strong>Load Balancing:</strong> Understand traffic distribution across multiple instances for high availability</li>
+                    <li><strong>Security Groups & IAM:</strong> Implement security best practices and access control</li>
+                    <li><strong>Auto Scaling:</strong> Configure automatic scaling based on application demand</li>
+                    <li><strong>Database Integration:</strong> Work with AWS RDS for managed database services</li>
+                    <li><strong>Monitoring & Logging:</strong> Use CloudWatch to monitor application performance</li>
+                </ul>
+            </div>
+
+            <p style="margin-top: 20px;">
+                Through this lab, students gain practical experience in modern DevOps practices, cloud architecture, and deployment automation. These skills are essential for any developer or engineer working with contemporary web applications in production environments.
+            </p>
+
+            <p>
+                <strong>Outcome:</strong> Successfully deploying a web application to AWS demonstrates the ability to architect, deploy, and manage scalable cloud-based solutions—crucial skills in today's technology landscape.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>✅ Lab Completed Successfully</p>
+            <p>Course: Master's Program | Database & Cloud Computing</p>
+            <p>Date: May 2026</p>
+        </div>
+    </div>
+</body>
+</html>
